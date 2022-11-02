@@ -29,7 +29,7 @@ Built on Javascript (not really, but let's roll with it)
 - know what geth is
 ---
 
-# and that they overthrough the quarians?
+# and that they overthrew the quarians?
 
 ![geth trooper](/geth.png)
 ---
