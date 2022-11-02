@@ -4,6 +4,36 @@ Built on Javascript (not really, but let's roll with it)
 
 ---
 
+## Show of hands if you:
+---
+
+
+## Show of hands if you:
+
+- have ever written Solidity
+---
+
+
+## Show of hands if you:
+
+- have ever written Solidity
+- have Metamask installed (on mobile or web)
+---
+
+
+
+## Show of hands if you:
+
+- have ever written Solidity
+- have Metamask installed (on mobile or web)
+- know what geth is
+---
+
+# and that they overthrough the quarians?
+
+![geth trooper](/geth.png)
+---
+
 ## Definitions
 ___
 - Blockchain -- distributed ledger 
@@ -100,3 +130,27 @@ ___
 ---
 # The bonus
 All of the above are written in **__Typescript__**
+
+---
+
+# Links
+
+---
+
+[These slides](https://ethereum-jss-lides.vercel.app/1)
+![These slides](/frame.png)
+
+---
+
+[EthereumJS](https://https://github.com/ethereumjs/ethereumjs-monorepo/)
+![EthereumJS](/ethjs.png)
+
+---
+
+[Hardhat](https://hardhat.org)
+![Hardhat](/hardhat.png)
+
+---
+
+[Ethers](https://ethers.org)
+![Ethers](/ethers.png)
