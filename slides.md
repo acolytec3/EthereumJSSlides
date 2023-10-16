@@ -201,3 +201,9 @@ ____
 ## Final
 ____
 - **Soon**...
+
+# Links
+____
+
+- [EIPs](https://eips.ethereum.org/)
+- [EIP Repo](https://github.com/ethereum/EIPs)
