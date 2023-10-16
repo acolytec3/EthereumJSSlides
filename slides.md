@@ -1,5 +1,6 @@
 # Building in Public
 
+![QR](/qr.png)
 ## The EIP process
 
 ---
@@ -201,6 +202,7 @@ ____
 ## Final
 ____
 - **Soon**...
+---
 
 # Links
 ____
