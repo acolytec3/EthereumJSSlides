@@ -33,6 +33,12 @@
 - have ever participated in any sort of discussion on a programming language spec update/change
 ---
 
+## You
+____
+
+Have built in public.  Well done.
+---
+
 ## Building in Public
 ___
 **Not original to me**
@@ -124,9 +130,7 @@ Various other details
 ___
 - Backwards Compatibility
 
-**EIP-2098** 
-
-"The Compact Representation does not collide with canonical signature as it uses 2 parameters (r, yParityAndS) and is 64 bytes long while canonical signatures involve 3 separate parameters (r, s, yParity) and are 65 bytes long."
+EIP-2098 -- "The Compact Representation does not collide with canonical signature as it uses 2 parameters (r, yParityAndS) and is 64 bytes long while canonical signatures involve 3 separate parameters (r, s, yParity) and are 65 bytes long."
 - Security Considerations
 - Test cases
 - Appendices
@@ -157,7 +161,7 @@ ____
 ____
 - PR merged into EIP repository
 - EIP revisions in conjunction with community feedback
-- All Core Dev Calls aka ACDC (not the band, but almost as good)
+- Further discussion on ACDC (not the band, but almost as good) or other working groups
 - EIP implemented in Ethereum client software (or other code as necessary)
 - EIP functionality rigorously tested (devnets/testnet deployments)
 - "Considered for inclusion" - the final stage
