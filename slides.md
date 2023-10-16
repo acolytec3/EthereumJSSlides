@@ -1,6 +1,5 @@
 # Building in Public
 
-![QR](/qr.png)
 ## The EIP process
 
 ---
@@ -209,3 +208,7 @@ ____
 
 - [EIPs](https://eips.ethereum.org/)
 - [EIP Repo](https://github.com/ethereum/EIPs)
+
+
+![QR](/qr.png)
+---
