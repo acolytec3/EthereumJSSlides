@@ -82,7 +82,6 @@ Like this totally...anonymous...pineapple.
 ![Protolambda](/proto.png)
 ---
 
-
 ## The anatomy of an EIP
 ___
 ---
@@ -144,6 +143,7 @@ _____
 - Ethereum research forums (ethresear.ch, Ethereum Magicians)
 - Discussion in Ethereum R&D Discord server
 ---
+
 ## Draft
 ____
 - A PR opened on the https://github.com/ethereum/EIPs repository
@@ -157,6 +157,7 @@ ____
 ____
 - PR merged into EIP repository
 - EIP revisions in conjunction with community feedback
+- All Core Dev Calls aka ACDC (not the band, but almost as good)
 - EIP implemented in Ethereum client software (or other code as necessary)
 - EIP functionality rigorously tested (devnets/testnet deployments)
 - "Considered for inclusion" - the final stage
@@ -164,7 +165,7 @@ ____
 
 ## Final
 ____
-- EIP is considered a done/finalized specification
+- EIP is considered a complete/finalized specification
 - Scheduled for inclusion in a hardfork (i.e. upgrade) to Ethereum
 ---
 
@@ -172,11 +173,13 @@ ____
 ____
 
 ---
+
 ## Idea
 ____
-- "Shard Blob Transactions"
-- "Protodanksharding"
-- Started in winter 2022 with a post from Vitalik Buterin (Ethereum's lead founder) on Ethereum Magicians
+- Make data availability cheaper for rollups who post data on Ethereum mainnet
+- "Shard Blob Transactions" - an Ethereum transaction with a bunch of arbitrary data attached to it
+- "Protodanksharding" - the name given to the specific approach used in 4844 to provide data availability 
+- Started in winter 2022 with a post from Vitalik Buterin (Ethereum co-founder) on Ethereum Magicians and some early prototypes built at EthDenver by protolambda and others
 ---
 ## Draft
 ____
@@ -193,4 +196,4 @@ ____
 ---
 ## Final
 ____
-- Soon:tm:...
+- **Soon**...
