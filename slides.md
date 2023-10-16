@@ -42,7 +42,7 @@ ___
 ---
 
 
-## Ethereum Improvement Proposal (EIP)
+# Ethereum Improvement Proposal (EIP)
 ___
 - A proposed change in the Ethereum specification or a new standard entirely
 - Can be as simple as a minor tweak to signature verification (EIP150)
@@ -50,18 +50,93 @@ ___
 - A complete overhaul of how gas fees are computed (EIP1559)
 ---
 
+## Who does EIPs?
+___
+---
+
+## Ethereum Foundation researchers
+___
+![Vitalk Buterin](/vitalik.jpg)
+Like this guy.
+---
+
+## People from the community
+___
+- Client teams - Geth, Nethermind, Besu, etc.
+- Applications - Uniswap, Ethers.js, etc.
+---
+
+## Anyone with a Github profile
+___
+Like this totally...
+---
+
+## Anyone with a Github profile
+___
+Like this totally...anonymous...
+---
+
+## Anyone with a Github profile
+___
+Like this totally...anonymous...pineapple.
+![Protolambda](/proto.png)
+---
+
+
 ## The anatomy of an EIP
 ___
-- Summary/Abstract - the TLDR
-- Motivation - How we got here
-- Specification - What we are proposing in this change, usually in great detail with code examples
-- Rationale - Why we are proposing this change
-- Various other details
+---
+
+Summary/Abstract - the TLDR
+___
+**EIP-1559**
+
+"A transaction pricing mechanism that includes fixed-per-block network fee that is burned and dynamically expands/contracts block sizes to deal with transient congestion."
+---
+
+Motivation - How we got here
+___
+**EIP-4337**
+
+"See also https://ethereum-magicians.org/t/implementing-account-abstraction-as-part-of-eth1-x/4020 and the links therein for historical work and motivation, and EIP-2938 for a consensus layer proposal for implementing the same goal.
+
+This proposal takes a different approach, avoiding any adjustments to the consensus layer. It seeks to achieve the following goals:
+
+Achieve the key goal of account abstraction: allow users to use smart contract wallets containing arbitrary verification logic instead of EOAs as their primary account. Completely remove any need at all for users to also have EOAs (as status quo SC wallets and EIP-3074 both..."
+---
+
+Specification - What we are proposing in this change, usually in great detail with code examples
+___
+**EIP-3855**
+
+"The instruction PUSH0 is introduced at 0x5f. It has no immediate data, pops no items from the stack, and places a single item with the value 0 onto the stack. The cost of this instruction is 2 gas (aka base)."
+---
+
+Rationale - Why we are proposing this change
+___
+**EIP-3675** (i.e. the Merge)
+
+"The changes specified in this EIP target a minimal requisite set of consensus and client software modifications to safely replace the existing proof-of-work consensus algorithm with the new proof-of-stake consensus represented by the already in-production beacon chain.
+
+This EIP was designed to minimize the complexity of hot-swapping the live consensus of the Ethereum network..."
+---
+
+Various other details
+___
+- Backwards Compatibility
+
+**EIP-2098** 
+
+"The Compact Representation does not collide with canonical signature as it uses 2 parameters (r, yParityAndS) and is 64 bytes long while canonical signatures involve 3 separate parameters (r, s, yParity) and are 65 bytes long."
+- Security Considerations
+- Test cases
+- Appendices
+- Etc.
 ---
 
 # The lifecyle of an EIP
 ___
-
+![EIP lifecycle](/EIP-process-update.jpg)
 ---
 
 ## Idea
@@ -119,4 +194,3 @@ ____
 ## Final
 ____
 - **Soon**...
-
