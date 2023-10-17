@@ -212,3 +212,7 @@ ____
 
 ![QR](/qr.png)
 ---
+
+___
+**Ask me anything, really!**
+---
